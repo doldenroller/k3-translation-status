@@ -1,0 +1,21 @@
+{
+  "name": "doldenroller/k3-translation-status",
+  "description": "Show all available translations of a page and if they are finished.",
+  "type": "kirby-plugin",
+  "authors": [
+    {
+      "name": "Doldenroller",
+      "email": "tom@doldenroller.de"
+    }
+  ],
+  "keywords": [
+    "kirby3",
+    "kirby3-cms",
+    "kirby3-plugin",
+    "kirby3-multilanguage"
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.k-box[data-theme="translated"] {background: var(--color-gray-100); border-left-color: var(--color-green-400) !important;}
+.k-box[data-theme="not-translated"] {background: var(--color-gray-100); border-left-color: var(--color-orange-400) !important;}
+
+.k-box[data-theme="translated"] + .k-box[data-theme="not-translated"] {border-top: 2px solid var(--color-gray-400);}
