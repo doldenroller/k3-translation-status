@@ -1,4 +1,5 @@
 Infosection to display all translations of a page in two lists, seperated wether the language is translated or not. By default a message is displayed if all languages are translated. Additionally the the template of the current page is displayed.
+![screenshot translation-status](/screenshot.jpg)
 
 # Install
 ## Download Zip file
