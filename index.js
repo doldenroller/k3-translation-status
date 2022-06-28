@@ -35,7 +35,7 @@ panel.plugin('doldenroller/k3-translation-status', {
             <k-headline>{{ headline }}</k-headline>
           </header>
 
-          <k-box v-if="translated.template" :theme="'gray-400'">
+          <k-box v-if="translated.template" :theme="'translation-head'">
             <k-text>
               <p><strong>Template:</strong> {{ translated.template }}</p>
             </k-text>

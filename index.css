@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.k-box:not([data-theme="none"]) {border-left: 2px solid var(--color-gray-500); border-radius: 0;}
+.k-box:not([data-theme="none"]):first-of-type {border-top-left-radius: var(--rounded); border-top-right-radius: var(--rounded);}
+.k-box:not([data-theme="none"]):last-of-type {border-bottom-left-radius: var(--rounded); border-bottom-right-radius: var(--rounded);}
+
+.k-box[data-theme="translation-head"] {background: var(--color-gray-400);}
 .k-box[data-theme="translated"] {background: var(--color-gray-100); border-left-color: var(--color-green-400) !important;}
 .k-box[data-theme="not-translated"] {background: var(--color-gray-100); border-left-color: var(--color-orange-400) !important;}
 
