@@ -8,3 +8,12 @@
 .k-box[data-theme="not-translated"] {background: var(--color-gray-100); border-left-color: var(--color-orange-400) !important;}
 
 .k-box[data-theme="translated"] + .k-box[data-theme="not-translated"] {border-top: 2px solid var(--color-gray-400);}
+
+.k-text ol, .k-text ul {padding-inline-start: 1em;}
+.k-box .k-button {padding-inline-start: 0;}
+
+.k-translated-section .k-text {width: 100%;}
+.k-translation-buttons .k-button-group {justify-content: space-between;}
+.k-translation-buttons .k-button[aria-current] {text-decoration: underline;}
+
+.k-info-icon {display: inline-flex; vertical-align: text-bottom;}
