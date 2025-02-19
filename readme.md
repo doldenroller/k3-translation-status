@@ -1,19 +1,21 @@
+# Kirby Translation Status
+
 Infosection to display all translations of a page in two lists, seperated wether the language is translated or not. By default a message is displayed if all languages are translated. Additionally the the template of the current page is displayed.
 ![screenshot translation-status](/screenshot-v2.jpg)
 
-# Install
-## Download Zip file
+## Install
+### Download Zip file
 
 Copy plugin folder into `site/plugins`
 
-## Composer
+### Composer
 I have no clue about the composer... but if I get right this should work.
 Run `composer require doldenroller/k3-translation-status`.
 
-# Usage
+## Usage
 Find and show translations of your page in the panel or use it as language switch in your blueprints.
 
-## Example
+### Example
 Basic setup:
 
 ```yaml
@@ -84,7 +86,7 @@ This can also be setup as global option in your config
 
 ```
 
-### Update/Changes in v2.0
+#### Update/Changes in v2.0
 First of all Kirby4 support is added. And the active language is underlined.
 
 The config option changed from `templatestatus.ignore` to `doldenroller.templatestatus.ignore`.
