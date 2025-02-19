@@ -86,7 +86,7 @@ This can also be setup as global option in your config
 
 ```
 
-#### Update/Changes in v2.0
+### Update/Changes in v2.0
 First of all Kirby4 support is added. And the active language is underlined.
 
 The config option changed from `templatestatus.ignore` to `doldenroller.templatestatus.ignore`.
