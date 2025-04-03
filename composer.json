@@ -1,5 +1,5 @@
 {
-  "name": "doldenroller/k3-translation-status",
+  "name": "doldenroller/kirby-translation-status",
   "description": "Show all available translations of a page and if they are finished.",
   "type": "kirby-plugin",
   "authors": [
