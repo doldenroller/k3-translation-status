@@ -10,7 +10,7 @@ Copy plugin folder into `site/plugins`
 
 ### Composer
 I have no clue about the composer... but if I get right this should work.
-Run `composer require doldenroller/k3-translation-status`.
+Run `composer require doldenroller/kirby-translation-status`.
 
 ## Usage
 Find and show translations of your page in the panel or use it as language switch in your blueprints.
